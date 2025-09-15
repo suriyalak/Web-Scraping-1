@@ -188,7 +188,7 @@ feature_names = list(feature_info.keys())
 scaler = StandardScaler()
 scaler.fit([default_values])
 
-st.header("🏀 Basketball Win Prediction")
+st.header("🏀 Basketball Wins Prediction")
 st.write('The result is calculated based on overall team stat, not on mental and emotional performance, which may result in inaccurate results.')
 
 with st.form("prediction_form"):
@@ -235,3 +235,4 @@ with st.form("prediction_form"):
 st.header('References')
 st.write('1. About team, https://en.wikipedia.org/wiki/Dallas_Mavericks')
 st.write('2. Team players, https://www.mavs.com/team/roster/')
+
